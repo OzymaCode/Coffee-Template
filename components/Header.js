@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react'
 import { AiOutlineArrowUp } from 'react-icons/ai'
 import { RiShoppingBasket2Fill } from 'react-icons/ri'
 import { BiUserCircle } from 'react-icons/bi'
+import Image from 'next/image'
 
 const Header = () => {
   const [headerBtn, setHeaderBtn] = useState('')
@@ -175,7 +176,7 @@ const Header = () => {
           </div>
           <div className="flex flex-row justify-between ">
             <div className=" ">
-              <img
+              <Image
                 src="/coffee_logo.png"
                 alt="logo"
                 className={`w-12 sm:w-12 md:w-16 lg:w-24
@@ -261,7 +262,7 @@ const Header = () => {
           </div>
           <div className="flex flex-row justify-between h-full ">
             <div className=" ">
-              <img
+              <Image
                 src="/coffee_logo.png"
                 alt="logo"
                 className={`w-12 sm:w-12 md:w-16 lg:w-24 pb-5

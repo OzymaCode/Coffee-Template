@@ -28,7 +28,11 @@ export default function Home() {
       <div className="bg-[url('/background_home_image.jpg')] bg-cover bg-center h-screen flex flex-col">
         <div className="flex justify-center items-center flex-col h-screen">
           <div className="flex justify-center items-center">
-            <img src="/slogan_image1.png" alt="" className="p-5 pt-44 w-2/3" />
+            <Image
+              src="/slogan_image1.png"
+              alt=""
+              className="p-5 pt-44 w-2/3"
+            />
           </div>
           <div className="flex flex-col justify-center items-center">
             <div className="p-10 text-white flex flex-row ">
@@ -76,7 +80,7 @@ export default function Home() {
       </div>
       <div className="lg:grid grid-cols-2 grid-rows-1">
         <div className="row-start-1 row-end-2 self-center col-start-1 col-end-2 h-full w-full lg:max-h-[550px]">
-          <img
+          <Image
             src="/block-home-1.jpg"
             alt=""
             className="object-cover object-left w-full h-full  bg-no-repeat "
@@ -120,7 +124,7 @@ export default function Home() {
       </div>
       <div className="lg:grid grid-cols-2 grid-rows-1">
         <div className="row-start-1 row-end-2 self-center col-start-2 col-end-[-1] h-full w-full lg:max-h-[550px]">
-          <img
+          <Image
             src="/block-home-2.jpg"
             alt=""
             className="object-cover object-left w-full h-full  bg-no-repeat "
@@ -133,7 +137,7 @@ export default function Home() {
                 <a href="">FROM BEAN TO CUP AT</a>
               </h1>
               <h1 className="font-bold text-4xl">
-                <a href="">BORÉAL'S ROASTERY</a>
+                <a href="">BORÉAL&apos;S ROASTERY</a>
                 <GoDash size={35} className="text-[#f78f1e]" />
               </h1>
             </div>
@@ -181,19 +185,20 @@ export default function Home() {
                 <a href="">JEBREW</a>
               </h1>
               <div className="font-bold text-4xl text-white flex flex-col lg:items-start items-center">
-                <a href="">CAN'T MAKE IT TO BORÉAL?</a>
+                <a href="">CAN&apos;T MAKE IT TO BORÉAL?</a>
                 <GoDash size={35} className="text-[#f78f1e]" />
               </div>
             </div>
             <p className="font-serif text-white	">
-              Can't make it to Boreal? Whether you are looking for a hearty mug
-              of black coffee in the morning or an after-lunch espresso, learn
-              how to brew a perfect cup of coffee for your needs and tastes :
+              Can&apos;t make it to Boreal? Whether you are looking for a hearty
+              mug of black coffee in the morning or an after-lunch espresso,
+              learn how to brew a perfect cup of coffee for your needs and
+              tastes :
             </p>
             <br />
             <div className="children:text-center grid lg:grid-cols-2 lg:grid-rows-1 grid-cols-1 grid-rows-2">
               <div className="lg:border-y lg:p-5 lg:border-r flex justify-center">
-                <img src="/jebrew-icons.png" alt="" />
+                <Image src="/jebrew-icons.png" alt="" />
               </div>
               <div className="lg:border-y lg:p-5 lg:border-l flex justify-center">
                 <a
@@ -212,7 +217,7 @@ export default function Home() {
       <div className="flex lg:flex-row flex-col justify-center items-center bg-[#2c2c2d]">
         <div className="lg:p-5 pt-10 relative lg:w-1/3 w-full flex justify-center">
           <div className="lg:absolute lg:right-0 lg:bottom-[-50px]">
-            <img
+            <Image
               src="/coffee-packs.png"
               alt=""
               className="h-36 md:h-32 lg:h-36 object-contain right-0"
@@ -236,7 +241,7 @@ export default function Home() {
               className="md:inline-block hidden w-1/2 border-r border-b lg:flex justify-center items-center"
               id="icon1"
             >
-              <img src="/coffee_logo.png" alt="" className="h-2/3" />
+              <Image src="/coffee_logo.png" alt="" className="h-2/3" />
             </div>
             <div
               className="md:flex hidden w-full  md:flex-row border-r border-b"
@@ -257,7 +262,7 @@ export default function Home() {
                 </a>
               </div>
               <div className="w-full">
-                <img
+                <Image
                   src="/locations-footer.png"
                   className="w-full h-full object-contain p-5"
                   alt=""
